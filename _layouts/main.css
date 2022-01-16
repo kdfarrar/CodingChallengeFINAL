@@ -1,0 +1,151 @@
+body{
+	margin: 0px;
+}
+
+.error-page{
+	padding-top: 200px;
+	text-align: center;
+}
+
+.error-page h1{
+	font-size: 100px;
+	font-family: Roboto;
+}
+
+.error-page h2{
+	font-size: 30px;
+	font-family: Roboto;
+}
+
+.error-page p{
+	font-size: 20px;
+	font-family: Roboto;
+}
+
+.banner{
+	padding: 120px 0px 120px;
+	margin: 0px;
+	background-color: #222222;
+	border-bottom: 6px solid #B78AFF;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+
+.banner img{
+	float: right;
+}
+
+.banner h1{
+	text-align: left;
+	padding: 0px 275px 0px 295px;
+	width: 50%;
+	font-family: Roboto;
+	font-size: 40px;
+	color: #FFFFFF;
+}
+
+.banner p{
+	text-align: left;
+	padding: 0px 1000px 20px 275px;
+	margin: 20px;
+	width: 50%;
+	font-family: Roboto;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+.about{
+	padding: 20px 20px 20px 300px;
+	margin: 20px;
+	width: 70%
+}
+
+.about h1{
+	font-family: Arial;
+	font-size: 25px;
+}
+
+.about p{
+	text-align: left;
+	font-family: arial;
+	font-size: 15px;
+	width: 50%;
+}
+
+.about img{
+	float: right;
+	clear: right;
+	margin-left: 50px;
+	vertical-align: middle;
+	width: 20%;
+	height: auto;
+	border: 5px solid #000000;
+}
+
+nav ul{
+	list-style-type: none;
+	border-left: 15px solid #B78AFF;
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+	overflow: hidden;
+	background-color: #000000;
+	width: 100%;
+}
+
+nav li{
+	float: left;
+}
+
+nav li a{
+	display: block;
+	padding: 14px 25px 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: #E8EDDF;
+	background-color: #000000;
+}
+
+nav li a:hover{
+	color: #B78AFF;
+}
+
+nav .active{
+	color: #FFB914;
+}
+
+.social-media-panel ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	bottom: 0px;
+	overflow: hidden;
+	width: 100%;
+	position: fixed;
+	background-color: #000000;
+}
+
+.social-media-panel li{
+	float: left;
+}
+
+.social-media-panel li a{
+	display: block;
+	text-decoration: none;
+	padding: 14px 25px 14px 25px;
+	font-family: Roboto;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+.social-media-panel li a:hover{
+	color: #B78AFF;
+}
+
+::-webkit-scrollbar{
+	width: 10px;
+	background: #E8EDDF;
+}
